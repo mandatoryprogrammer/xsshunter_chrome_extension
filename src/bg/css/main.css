@@ -1,0 +1,51 @@
+body {
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+}
+
+.main-content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.settings-main-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.option_label_text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.panel-body {
+    background-color: rgb(241, 242, 246);
+}
+
+#custom_javascript_editor {
+    display: none;
+}
+
+.CodeMirror {
+    display: none;
+    text-align: left;
+}
+
+.add_rule_button {
+    font-size: 20px;
+}
+
+.update_rule_button {
+    font-size: 20px;
+    display: none;
+}
+
+.delete_rule_button{
+    font-size: 20px;
+    display: none;
+}
+
+.cancel_rule_button{
+    font-size: 20px;
+    display: none;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "XSS Hunter Injector - Correlated XSS Injection Tool",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A tool to help penetration tester with advanced XSS testing.",
+  "homepage_url": "https://xsshunter.com/",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "permissions": [
+    "tabs",
+    "https://*/*,http://*/*",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage"
+  ],
+  "content_security_policy": "default-src 'none'; script-src 'unsafe-eval'"
+}
